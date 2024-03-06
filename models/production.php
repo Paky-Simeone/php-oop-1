@@ -4,7 +4,7 @@ class Production{
     public $language;
     public $vote;
 
-function __construt(
+function __construct(
     string $title,
     string $language,
     int $vote,
@@ -14,4 +14,4 @@ function __construt(
     $this->vote = $vote;
 }
 
-}
+};

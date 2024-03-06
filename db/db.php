@@ -1,4 +1,6 @@
 <?php
+
+
 $Jumanji = new Production(
     "Jumanji",
     "Inglese",
@@ -16,3 +18,10 @@ $Io_sono_Bonvi = new Production(
     "Italiano",
     8,
 );
+
+$Film = [
+    $Jumanji,
+    $Booleaners_and_Dragons,
+    $Io_sono_Bonvi,
+];
+var_dump( $Film );
