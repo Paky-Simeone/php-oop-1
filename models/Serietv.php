@@ -14,7 +14,7 @@ class Serietv extends Production {
         int $ep,
     ){
         parent::__construct($title, $language, $vote, $genere);
-        $this->profit = $seasons;
-        $this->duration = $ep;
+        $this->seasons = $seasons;
+        $this->ep = $ep;
     }
 }

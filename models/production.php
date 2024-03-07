@@ -1,5 +1,8 @@
 <?php
 require_once __DIR__ ."/Genre.php";
+require_once __DIR__ ."/Movie.php";
+require_once __DIR__ ."/Serietv.php";
+
 class Production{
     public $title;
     public $language;
